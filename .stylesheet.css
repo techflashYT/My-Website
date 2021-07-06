@@ -1,0 +1,22 @@
+body {
+    font-size: 25px;
+    background-color: #32353B;
+    color: white;
+}
+
+.nav {
+    text-align: center;
+}
+
+img {
+    display: inline;
+}
+
+a {
+    color: lightblue;
+}
+
+iframe {
+    float: left;
+    padding-right: 35px;
+}

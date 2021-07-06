@@ -26,3 +26,8 @@ textboxid
     height:200px;
     font-size:14pt;
 }
+
+td {
+vertical-align: top;
+text-align: left;
+}

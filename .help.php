@@ -14,9 +14,12 @@ if (substr($_SERVER["REMOTE_ADDR"], 0, 8) === "192.168.") $link = "http://nas/";
 	<p>If something doesn't work correctly on the website, feel free to email me at michaelfgarofalo@gmail.com, preferably with screenshots of the issue.  If you want to suggest something, title your email "Suggestion for the website" or at least something simillar.</p>
 	<input type="radio" name="Suggest/Help"> Suggestion
 	<input type="radio" name="Suggest/Help"> Support
-	<form>
-	  <input style="height:500px;width:1400px;font-size:14pt;" textarea rows="2" cols="25"</textarea></input>  <! This is currently very messed up, while the text field DOES work, the text is stuck in the center vertically with only 1 line of text >
-	</form>
+	<span>
+	 <form>
+<textarea rows="30" cols="200">
+</textarea>
+	 </form>
+	</span>
 	<input type="submit" name="Submit" style="background: teal;height: 40px;width: 120px">
     </body>
 

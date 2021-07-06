@@ -1,4 +1,4 @@
-# My-Website
+# How to make a new page
 Instructions on how to make a new page:
 1. Use your text editor of choice to edit .basicpage.php
 2. Make it an actual page

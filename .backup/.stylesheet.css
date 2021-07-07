@@ -1,0 +1,33 @@
+body {
+    font-size: 25px;
+    background-color: #32353B;
+    color: white;
+}
+
+.nav {
+    text-align: center;
+}
+
+img {
+    display: inline;
+}
+
+a {
+    color: lightblue;
+}
+
+iframe {
+    float: left;
+    padding-right: 35px;
+}
+
+textboxid
+{
+    height:200px;
+    font-size:14pt;
+}
+
+td {
+vertical-align: top;
+text-align: left;
+}

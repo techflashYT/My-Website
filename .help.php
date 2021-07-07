@@ -16,10 +16,12 @@ if (substr($_SERVER["REMOTE_ADDR"], 0, 8) === "192.168.") $link = "http://nas/";
 	<input type="radio" name="Suggest/Help"> Support
 	<span>
 	 <form>
-<textarea rows="30" cols="200">
-</textarea>
-	 </form>
-	</span>
-	<input type="submit" name="Submit" style="background: teal;height: 40px;width: 120px">
-    </body>
-
+<form method="post" action="send_script.php">
+  Name: <input type="text" name="name" > <br />
+  email: <input type="email" name="email" > <br />
+  Subject: <input type="text" name="subject" > <br />
+  Message: <textarea name="msg"></textarea>
+  <button type="submit" name="send_message_btn">Send</button>
+</form>
+</body>
+</html>

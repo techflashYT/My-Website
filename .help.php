@@ -14,14 +14,15 @@ if (substr($_SERVER["REMOTE_ADDR"], 0, 8) === "192.168.") $link = "http://nas/";
 	<p>If something doesn't work correctly on the website, feel free to email me at michaelfgarofalo@gmail.com, preferably with screenshots of the issue.  If you want to suggest something, title your email "Suggestion for the website" or at least something simillar.</p>
 	<input type="radio" name="Suggest/Help"> Suggestion
 	<input type="radio" name="Suggest/Help"> Support
-	<span>
+	<div><span>
 	 <form>
 <form method="post" action="send_script.php">
-  Name: <input type="text" name="name" > <br />
-  email: <input type="email" name="email" > <br />
-  Subject: <input type="text" name="subject" > <br />
-  Message: <textarea name="msg"></textarea>
-  <button type="submit" name="send_message_btn">Send</button>
+  Name: <input type="text" name="name" > </br> </br>
+  Email: <input type="email" name="email" style="width: 250px"> </br> </br>
+  Subject: <input type="text" name="subject" > </br> </br>
+  Message: <textarea name="msg" style="height: 250px; width: 1000px"></textarea> </br> </br>
+  <button type="submit" name="send_message_btn" style="background-color: DeepSkyBlue; height: 50px; width: 120px">Send</button>
 </form>
+</div></span>
 </body>
 </html>

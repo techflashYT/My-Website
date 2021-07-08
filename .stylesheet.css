@@ -31,3 +31,15 @@ td {
 vertical-align: top;
 text-align: left;
 }
+
+rcorners1 {
+  border-radius: 25px;
+  background: #73AD21;
+  width: 20px;
+  height: 15px;
+}
+
+
+text {
+    display: inline;
+}

@@ -2,6 +2,8 @@ body {
     font-size: 25px;
     background-color: #32353B;
     color: white;
+    text-align: left;
+    display: inline;
 }
 
 .nav {
@@ -40,6 +42,21 @@ rcorners1 {
 }
 
 
-text {
-    display: inline;
+textarea::placeholder {
+  color: #000;
+  font-size: 20px;  
+}
+
+textarea {
+  font-size: 20px;
+}
+
+input::placeholder {
+   color: #000;
+   font-size: 20px;
+}
+
+input::text {
+   color: #000;
+   font-size: 20px;
 }

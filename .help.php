@@ -17,12 +17,12 @@ if (substr($_SERVER["REMOTE_ADDR"], 0, 8) === "192.168.") $link = "http://nas/";
 	<div><span>
 	 <form>
 <form method="post" action="send_script.php">
-  Name: <input type="text" name="name" > </br> </br>
-  Email: <input type="email" name="email" style="width: 250px"> </br> </br>
-  Subject: <input type="text" name="subject" > </br> </br>
-  Message: <textarea name="msg" style="height: 250px; width: 1000px"></textarea> </br> </br>
+  <input type="text" name="name" placeholder="Name" style="height: 30px"> </br> </br>
+  <input type="email" name="email" style="width: 250px; height: 30px" placeholder="Email"> </br> </br>
+  <input type="text" name="subject" placeholder="Subject" style="height: 30px"> </br> </br>
+  <textarea name="msg" style="height: 250px; width: 1000px" placeholder="Message"></textarea> </br> </br>
   <button type="submit" name="send_message_btn" style="background-color: DeepSkyBlue; height: 50px; width: 120px">Send</button>
 </form>
-</div></span>
+</span></div>
 </body>
 </html>

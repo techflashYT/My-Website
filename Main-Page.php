@@ -8,9 +8,11 @@ if (substr($_SERVER["REMOTE_ADDR"], 0, 8) === "192.168.") $link = "http://NAS";
     </head>
     <body>
 		<br>
-        <a href="<?php echo $link; ?>/.links.php">Useful Links</a>  <! Hyperlink to links.php, which has a lot of useful links on it >
+		<img style="height: 32px;" src=".logos/.Internet.png" alt="">
+	        <a href="<?php echo $link; ?>/.links.php">Useful Links</a>  <! Hyperlink to links.php, which has a lot of useful links on it >
 		<br>
 		<br>
+		<img style="height: 32px;" src=".logos/.Game-Controller.png" alt="Game Controller icon">
 		<a href="<?php echo $link; ?>/.game.php">Bitcoiner Game</a>  <! Hyperlink to game.php, my Bitcoiner embed from crazygames >
 		<br>
 		<br>

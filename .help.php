@@ -11,7 +11,7 @@ if (substr($_SERVER["REMOTE_ADDR"], 0, 8) === "192.168.") $link = "http://nas/";
         <a class="nav" href="<?php echo $link; ?>/Main-Page.php">Back to Main Page</a>  <! Hyperlink to Main-Page.php, the main page >
         <br>
         <br>
-	<p>If something doesn't work correctly on the website, feel free to email me at michaelfgarofalo@gmail.com, preferably with screenshots of the issue.  If you want to suggest something, title your email "Suggestion for the website" or at least something simillar.</p>
+	If something doesn't work correctly on the website, feel free to email me at michaelfgarofalo@gmail.com, preferably with screenshots of the issue. </br> If you want to suggest something, title your email "Suggestion for the website" or at least something simillar.
 	<input type="radio" name="Suggest/Help"> Suggestion
 	<input type="radio" name="Suggest/Help"> Support
 	<div><span>

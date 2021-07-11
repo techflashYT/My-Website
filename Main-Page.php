@@ -1,12 +1,13 @@
 <?php
-$link = "http://75.167.190.201";
+$link = "http://75.167.232.199";
 if (substr($_SERVER["REMOTE_ADDR"], 0, 8) === "192.168.") $link = "http://NAS";
 ?><html>
     <head>
         <title>Welcome to the Main Page!</title>
-		<link href="/.stylesheet.css" rel="stylesheet" type="text/css">
+		<link href=".stylesheet.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+	<meta name=”viewport” content=”width=device-width, initial-scale=1″>
 		<br>
 		<img style="height: 32px;" src=".logos/.Internet.png" alt="">
 	        <a href="<?php echo $link; ?>/.links.php">Useful Links</a>  <! Hyperlink to links.php, which has a lot of useful links on it >
@@ -26,6 +27,7 @@ if (substr($_SERVER["REMOTE_ADDR"], 0, 8) === "192.168.") $link = "http://NAS";
 		<br>
 		<br>
 		<a href="<?php echo $link; ?>/.help.php">Support/Suggestions</a>  <! Hyperlink to help.php, where users can suggest things or ask for support >
-    </body>
+	</body>
+</head>
 </html>
 

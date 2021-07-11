@@ -1,5 +1,5 @@
 <?php
-$link = "http://75.167.190.201";
+$link = "http://75.167.232.199";
 if (substr($_SERVER["REMOTE_ADDR"], 0, 8) === "192.168.") $link = "http://NAS";
 ?><html>
     <head>
@@ -9,6 +9,7 @@ if (substr($_SERVER["REMOTE_ADDR"], 0, 8) === "192.168.") $link = "http://NAS";
 		<link href="/.stylesheet.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+	<meta name=”viewport” content=”width=device-width, initial-scale=1″>
 	<a class="nav" href="<?php echo $link; ?>/Main-Page.php">Main Page</a>  <! Hyperlink back to the Main Page of the Web server >
 	<br>
 	<br>

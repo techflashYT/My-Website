@@ -1,9 +1,6 @@
 <?php
-
-
 $browser = get_browser(null, true);
 print_r($browser);
-
 $link = "http://75.167.232.199";
 if (substr($_SERVER["REMOTE_ADDR"], 0, 8) === "192.168.") $link = "http://NAS";
 ?><html>

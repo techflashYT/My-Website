@@ -14,6 +14,6 @@ echo $output;
       </body>
     </head>
 </br>
-    <a class="nav" href="<?php echo $link; ?>/Main-Page.php">Back to Main Page</a>  <! Hyperlink back to the Main Page of the Web server >
+    <a class="nav" href="<?php echo $link; ?>/Main-Page.php">Back to Main Page</a>  <!-- Hyperlink back to the Main Page of the Web server -->
 
 

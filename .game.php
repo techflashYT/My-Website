@@ -7,7 +7,7 @@ if (substr($_SERVER["REMOTE_ADDR"], 0, 8) === "192.168.") $link = "http://NAS";
         <link href=".stylesheet.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-    <meta name=”viewport” content=”width=device-width, initial-scale=1″>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1″>  <!-- Makes the page fit the device with, makes the website at least slightly more mobile friendly -->
         <a href="<?php echo $link; ?>/Main-Page.php">Back to Main Page</a>
         <br>
         <iframe width="1050" height="812" src="https://www.crazygames.com/embed/bitcoiner" frameborder="0" allowfullscreen></iframe>

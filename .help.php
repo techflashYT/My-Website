@@ -10,8 +10,8 @@ if (substr($_SERVER["REMOTE_ADDR"], 0, 8) === "192.168.") $link = "http://nas/";
     <meta name=”viewport” content=”width=device-width, initial-scale=1″></br>  <!-- Makes the page fit the device with, makes the website at least slightly more mobile friendly -->
         <a class="nav" href="<?php echo $link; ?>/Main-Page.php">Back to Main Page</a></br></br>  <!-- Hyperlink to Main-Page.php, the main page -->
 	If something doesn't work correctly on the website, feel free to email me at michaelfgarofalo@gmail.com, preferably with screenshots of the issue. </br> If you want to suggest something, title your email "Suggestion for the website" or at least something simillar.
-	<input type="radio" name="Suggest/Help"> Suggestion
-	<input type="radio" name="Suggest/Help"> Support
+  </br></br></br><input type="radio" name="Suggest/Help"> Suggestion</br>
+	<input type="radio" name="Suggest/Help"> Support</br></br></br>
 	<div><span>
 	 <form>
 <form method="post" action="send_script.php">

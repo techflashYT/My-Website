@@ -1,4 +1,4 @@
-<?php 
+<?php
 if (isset($_POST['send_message_btn'])) {
   $name = $_POST['name'];
   $email = $_POST['email'];
@@ -14,13 +14,12 @@ if (isset($_POST['send_message_btn'])) {
   </head>
   <body>
   	<h1>" . $subject . "</h1>
-  	<p>".$msg."</p>
+  	<p>" . $msg . "</p>
   </body>
   </html>";
   if (mail('michaelfgarofalo@gmail.com', $subject, $message, $headers)) {
-   echo "Email sent";
-  }else{
-   echo "Failed to send email. Please try again later";
+    echo "Email sent";
+  } else {
+    echo "Failed to send email. Please try again later";
   }
 }
-?>

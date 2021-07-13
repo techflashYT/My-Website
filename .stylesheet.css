@@ -21,42 +21,41 @@ a {
 iframe {
     float: left;
     padding-right: 35px;
+    padding-left: 35px;
 }
 
-textboxid
-{
-    height:200px;
-    font-size:14pt;
+textboxid {
+    height: 200px;
+    font-size: 14pt;
 }
 
 td {
-vertical-align: top;
-text-align: left;
+    vertical-align: top;
+    text-align: left;
 }
 
 rcorners1 {
-  border-radius: 25px;
-  background: #73AD21;
-  width: 20px;
-  height: 15px;
+    border-radius: 25px;
+    background: #73AD21;
+    width: 20px;
+    height: 15px;
 }
 
-
 textarea::placeholder {
-  color: #000;
-  font-size: 20px;  
+    color: #000;
+    font-size: 20px;
 }
 
 textarea {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 input::placeholder {
-   color: #000;
-   font-size: 20px;
+    color: #000;
+    font-size: 20px;
 }
 
 input::text {
-   color: #000;
-   font-size: 20px;
+    color: #000;
+    font-size: 20px;
 }

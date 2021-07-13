@@ -4,3 +4,6 @@
 .sync/ID
 .sync/IgnoreList
 .sync/root_acl_entry
+.sync/Archive/.game-bitcoiner.php
+.sync
+.sync/Archive

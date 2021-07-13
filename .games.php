@@ -19,3 +19,4 @@ if (substr($_SERVER["REMOTE_ADDR"], 0, 8) === "192.168.") $link = "http://NAS/";
     <a href="<?php echo $link ?>.games/.candy-clicker-2.php">Candy Clicker 2 Game</a></br></br> <!-- Hyperlink to .games/.candy-clicker-2.php, my Candy Clicker 2 embed from crazygames -->
     <a href="<?php echo $link ?>.games/.mineclicker.php">MineClicker Game</a></br></br> <!-- Hyperlink to .games/.mineclicker.php, my MineClicker embed from crazygames -->
     <a href="<?php echo $link ?>.games/.m13n-miniaturization.php">M13n: Miniaturizaiton Game</a></br></br> <!-- Hyperlink to .games/.m13n-miniaturization.php, my M13n: Miniaturization embed from crazygames -->
+    <a href="<?php echo $link ?>.games/.boombox-inc.php">Boombox Inc.</a></br></br> <!-- Hyperlink to .games./.boombox-inc.php, my Boombox Inc. embed from crazygames -->

@@ -1,0 +1,1 @@
+window.addEventListener("keydown", evt => console.log("key: " + evt.key + ", " + evt.code));

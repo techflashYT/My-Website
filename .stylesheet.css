@@ -22,6 +22,7 @@ iframe {
     float: left;
     padding-right: 35px;
     padding-left: 35px;
+    border: none;
 }
 
 textboxid {
@@ -58,4 +59,9 @@ input::placeholder {
 input::text {
     color: #000;
     font-size: 20px;
+}
+
+#output {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
 }

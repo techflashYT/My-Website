@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.7
+#!/usr/bin/env python2.7
 import smtplib
 import email
 
@@ -26,6 +26,6 @@ try:
     server_ssl.sendmail(sent_from, to, email_text)
     server_ssl.close()
 
-    print ("Email sent!")
+    print 'Email sent!'
 except: 
-    print ("Something went wrong...")
+    print 'Something went wrong...'

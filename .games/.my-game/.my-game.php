@@ -14,13 +14,7 @@ if (substr($_SERVER["REMOTE_ADDR"], 0, 8) === "192.168.") $link = "http://NAS/";
     </br><a href="<?php echo $link; ?>Main-Page.php">Back to Main Page</a> <!-- Hyperlink to Main-Page.php, the Main Page of the Web Server -->
     </br><a href="<?php echo $link; ?>.games.php">Back to Games page</a> <!-- Hyperlink to .games.php, the list of games embeds -->
     </br></br></br>
-    <iframe allowtransparency="true" width="1050" height="812" src=<?php echo $link; ?>.games\.my-game\.blankpage.php style=" padding-left: 20px; padding-right: 20px; background: white;" frameborder="0" ></iframe> <!-- Hopefully a blank iframe -->
-    <script type="text/javascript" src="<?php echo $link; ?>.games\.my-game\.js\.my-game.js">
-    </script>
-    <p id="test" />
-    <script>
-        document.getElementById("test").innerHTML = 'yea';
-    </script>
+    <iframe allowtransparency="true" width="1050" height="812" src=<?php echo $link; ?>.games\.my-game\.blankpage.php style=" padding-left: 20px; padding-right: 20px; background: white;" frameborder="0"></iframe> <!-- Hopefully a blank iframe -->
 </body>
 
 </html>

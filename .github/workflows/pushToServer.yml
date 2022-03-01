@@ -1,0 +1,7 @@
+name: "Push to the server."
+author: "Techflash"
+description: "Pushes the changes from the push to the web server."
+
+runs:
+	using: 'node16'
+	main: 'index.js'

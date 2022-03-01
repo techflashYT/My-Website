@@ -1,0 +1,18 @@
+RewriteEngine On
+
+# browser requests PHP
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^\ ]+)\.php
+RewriteRule ^/?(.*)\.php$ /$1 [L,R=301]
+
+# check to see if the request is for a PHP file:
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^/?(.*)$ /$1.php [L]
+
+
+# browser requests HTML
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^\ ]+)\.html
+RewriteRule ^/?(.*)\.html$ /$1 [L,R=301]
+
+# check to see if the request is for a HTML file:
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^/?(.*)$ /$1.html [L]

@@ -10,5 +10,5 @@ function save(settingName, settingValue) {
 }
 
 function load(settingName) {
-    return window.localStorage.getItem(settingName)
+    return window.localStorage.getItem(settingName);
 }

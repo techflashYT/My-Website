@@ -55,3 +55,13 @@ a.link {
 	color: #aad5e6;
 	text-decoration: underline;
 }
+
+.grid {
+	display: flex;
+}
+
+.codeOutline {
+	// This might be problematic, with the border and border-radius being the same 
+	border: 2px solid gray;
+	border-radius: 2px;
+}

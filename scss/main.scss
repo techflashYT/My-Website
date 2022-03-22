@@ -60,8 +60,14 @@ a.link {
 	display: flex;
 }
 
-.codeOutline {
-	// This might be problematic, with the border and border-radius being the same 
-	border: 2px solid gray;
-	border-radius: 2px;
+.codeBorder {
+	margin-left: 1rem;
+	padding: 1rem 3rem;
+	border: 5px solid gray;
+	border-radius: 10px;
+}
+
+
+.nodisplay {
+	display: none;
 }

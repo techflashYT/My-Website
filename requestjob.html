@@ -9,19 +9,19 @@
 	<title>Request</title>
 </head>
 <body>
-	<div id="navbarContainer">
+	<nav id="navbarContainer">
 		<ul class="navbar">
 			<li class="navbarItem navbarItemHome"><a href="/" class="navbarLink">Home</a></li>
 			<li class="navbarItem"><a href="/comingsoon" class="navbarLink">Placeholder</a></li>
 			<li class="navbarItem"><a href="/comingsoon" class="navbarLink">Placeholder</a></li>
 			<li class="navbarItem"><a href="/comingsoon" class="navbarLink navbarSettings">Settings</a></li>
 		</ul>
-	</div>
+	</nav>
 	<h1 class="heading">Reqest a job</h1>
 	<p>You can request a job to be done here!<br />
     Please fill out the form detailing what you would like done.
     </p>
-	<form action="saveForms/job">
+	<form action="saveForms/job" method="post">
 		<label for="name" class="formLabel">Name: </label>
 		<input type="text" name="name" id="name" />
 		<label for="title" class="formLabel"></label>

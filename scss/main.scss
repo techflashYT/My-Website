@@ -57,11 +57,60 @@ a.link {
 }
 
 .grid {
-	display: flex;
+	display: block;
 }
 
+@media (min-width: 1500) { // Otherwise it gets calustrophobic in there
+	.grid-cols-1 {
+		display: flex;
+		justify-content: space-between;
+	}
+	.grid-cols-2 {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.grid-cols-3 {
+		display: flex;
+		justify-content: space-between;
+	}
+	.grid-cols-1 .col {
+		width: 100%;
+	}
+
+	.grid-cols-2 .col {
+		width: 50%;
+	}
+
+	.grid-cols-3 .col {
+		width: 32%;
+	}
+}
+@media (max-width: 1500) {
+	.grid-cols-1 {
+		display: block;
+	}
+	.grid-cols-2 {
+		display: block;
+	}
+	
+	.grid-cols-3 {
+		display: block;
+	}
+	.grid-cols-1 .col {
+		width: 100%;
+	}
+	.grid-cols-2 .col {
+		width: 100%;
+	}
+
+	.grid-cols-3 .col {
+		width: 100%;
+	}
+}
 .codeBorder {
 	margin-left: 1rem;
+	margin-right: 1rem;
 	padding: 1rem 3rem;
 	border: 5px solid gray;
 	border-radius: 10px;
@@ -69,5 +118,5 @@ a.link {
 
 
 .nodisplay {
-	display: none;
+	display: none
 }

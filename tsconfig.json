@@ -5,7 +5,8 @@
         "outDir": "js",
         "sourceMap": false,
         "removeComments": true,
-        "watch": true
+        "watch": true,
+        "target": "ES3"
     },
     "files": [
         "ts/settings.ts"

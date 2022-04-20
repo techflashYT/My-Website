@@ -1,5 +1,4 @@
 class settings {
-
     save(settingName, settingValue) {
         try {
             window.localStorage.setItem(settingName, settingValue);

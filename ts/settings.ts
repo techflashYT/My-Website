@@ -1,5 +1,5 @@
 class settings {
-    save(settingName: String, settingValue: any) {
+    save(settingName: string, settingValue: any) {
         try {
             window.localStorage.setItem(settingName, settingValue);
         }
@@ -10,7 +10,7 @@ class settings {
         return 0;
     }
 
-    load(settingName: String) {
+    load(settingName: string) {
         return window.localStorage.getItem(settingName);
     }
 }

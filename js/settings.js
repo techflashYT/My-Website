@@ -1,16 +1,17 @@
-class settings {
-    save(settingName, settingValue) {
+var settings = (function () {
+    function settings() {
+    }
+    settings.prototype.save = function (settingName, settingValue) {
         try {
             window.localStorage.setItem(settingName, settingValue);
         }
         catch (err) {
-            // eval("alert('An error has occurred trying to save a setting (\' + settingName + \') with value \" + settingValue + '!  The error is ' + err + '\''");
             return 1;
         }
         return 0;
-    }
-
-    load(settingName) {
+    };
+    settings.prototype.load = function (settingName) {
         return window.localStorage.getItem(settingName);
-    }
-}
+    };
+    return settings;
+}());

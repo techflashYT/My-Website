@@ -58,56 +58,71 @@ a.link {
 	display: block;
 }
 
-@media (min-width: 1500) { // Otherwise it gets calustrophobic in there
+.grid-cols-1 {
+	display: flex;
+	justify-content: space-between;
+}
+.grid-cols-2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.grid-cols-3 {
+	display: flex;
+	justify-content: space-between;
+}
+.grid-cols-1 .col {
+	width: 100%;
+}
+
+.grid-cols-2 .col {
+	width: 50%;
+}
+
+.grid-cols-3 .col {
+	width: 32%;
+}
+
+@media (max-width: 1000px) {
 	.grid-cols-1 {
-		display: flex;
-		justify-content: space-between;
+		display: block;
 	}
 	.grid-cols-2 {
-		display: flex;
-		justify-content: space-between;
+		display: block;
 	}
 	
 	.grid-cols-3 {
-		display: flex;
-		justify-content: space-between;
+		display: block;
 	}
 	.grid-cols-1 .col {
 		width: 100%;
+		margin-bottom: 8px;
 	}
-
 	.grid-cols-2 .col {
-		width: 50%;
+		width: 100%;
+		margin-bottom: 8px;
 	}
 
 	.grid-cols-3 .col {
-		width: 32%;
+		width: 100%;
+		margin-bottom: 8px;
 	}
 }
-@media (max-width: 1500) {
-	.grid-cols-1 {
-		display: block;
-	}
-	.grid-cols-2 {
-		display: block;
-	}
-	
-	.grid-cols-3 {
-		display: block;
-	}
-	.grid-cols-1 .col {
-		width: 100%;
-	}
-	.grid-cols-2 .col {
-		width: 100%;
-	}
-
-	.grid-cols-3 .col {
-		width: 100%;
+@media (max-width: 200px) {
+	.grid-cols-1, .grid-cols-2, .grid-cols-3 {
+		::before {
+			content: "Sorry!  Your screen is too small to display this content!";
+			position: relative;
+			top: 999px;
+			left: 999px;
+		}
+		position: absolute;
+		top: -999px;
+		left: -999px;
 	}
 }
 .codeBorder {
-	margin-left: 16px;
+	margin-left: 8px;
 	margin-right: 16px;
 	padding: 16px 48px;
 	border: 5px solid gray;

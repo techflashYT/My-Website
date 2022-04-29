@@ -13,10 +13,11 @@ body {
 	padding: 0;
 }
 
-
+.bodyContainer {
+	margin-left: 8px;
+}
 .heading {
 	font-family: 'Noto Serif Display', 'Georgia', 'Palatino', 'Times New Roman', serif;
-	margin-left: 8px;
 }
 
 #navbarContainer {
@@ -46,13 +47,10 @@ body {
 	color: #aad5e6;
 	text-decoration: none;
 }
-p {
-	margin-left: 8px;
-}
 
 a.link {
 	// Generic Link
-	color: #aad5e6;
+	color: #4040ff;
 	text-decoration: underline;
 }
 

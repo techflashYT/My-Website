@@ -5,6 +5,7 @@
 		"outDir": "js",
 		"sourceMap": false,
 		"removeComments": true,
+		
 	},
 	"files": [
 		"ts/settings.ts"

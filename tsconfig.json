@@ -1,13 +1,12 @@
 {
-    "compileOnSave": true,
-    "compilerOptions": {
-        "target": "ES3",
-        "outDir": "js",
-        "sourceMap": false,
-        "removeComments": true,
-        "watch": true
-    },
-    "files": [
-        "ts/settings.ts"
-    ]
+	"compileOnSave": true,
+	"compilerOptions": {
+		"target": "ES3",
+		"outDir": "js",
+		"sourceMap": false,
+		"removeComments": true,
+	},
+	"files": [
+		"ts/settings.ts"
+	]
 }

@@ -1,0 +1,31 @@
+$navbarItemColor: #5B5B5B;
+$navbarItemBorder: #505050;
+$navbarLinkColor: #AFDFFF;
+
+#navbarContainer {
+	background-image: url("/decomp?fn=img/nb.bmp.gz&tp=image/bmp");
+	width: 100%;
+}
+
+#navbar {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.navbarItem {
+	border: 5px solid $navbarItemBorder;
+	margin-left: 4px;
+	background-color: $navbarItemColor;
+	padding: 6px 8px;
+	display: inline-block;
+}
+.navbarFirst {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+
+.navbarLink {
+	color: $navbarLinkColor;
+	text-decoration: none;
+}

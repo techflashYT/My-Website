@@ -1,0 +1,1 @@
+var B=function(){function B(){}return B.prototype.GET=function(u){var a=new XMLHttpRequest,m=document.URL.replace(RegExp("/.*$"),"").replace(":","");return a.open("GET","".concat(m,"://").concat(document.URL.replace("".concat(m,"://"),"").replace(RegExp("/.*$"),""),":8").concat("https"==m?"443":"080","/").concat(u)),a.send(),a.responseText},B}(),backend=new B;

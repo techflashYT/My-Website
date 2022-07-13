@@ -1,0 +1,9 @@
+$homeButtonColor: #358835;
+$homeButtonBorder: #1b701b;
+.navbarItemHome {
+	background-color: $homeButtonColor;
+	border: 5px solid $homeButtonBorder;
+}
+.navbarItemHome .navbarLink {
+	color: #FF7751;
+}

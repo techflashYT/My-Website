@@ -1,0 +1,14 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"target": "ES3",
+		"outDir": "../dist/js",
+		"sourceMap": false,
+		"removeComments": true,
+		
+	},
+	"files": [
+		"settings.ts",
+		"backend.ts"
+	]
+}

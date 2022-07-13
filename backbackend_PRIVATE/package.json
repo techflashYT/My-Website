@@ -1,0 +1,22 @@
+{
+	"name": "techflash.ga_backend_backend",
+	"version": "0.0.1",
+	"description": "The admin-backend of the backend of the techflash.ga website",
+	"dependencies": {
+		"express": "^4.18.1"
+	},
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/techflashYT/techflash.ga"
+	},
+	"author": "Techflash",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/techflashYT/techflash.ga/issues"
+	},
+	"homepage": "https://github.com/techflashYT/techflash.ga#readme"
+}

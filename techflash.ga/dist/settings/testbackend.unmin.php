@@ -10,7 +10,7 @@ include '../../style.php';
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Test backend</title>
-	<style id="dnone">*{display: none!important;}</style>
+	<style id="dnone">*{display:none!important;}</style>
 	<script><?php $j=getJS('load,backend')?></script>
 </head>
 <body>

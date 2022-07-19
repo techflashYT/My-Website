@@ -16,7 +16,7 @@ class Settings {
 			throw new Error("The name field for the setting attempted to be saved was blank.  Aborting.")
 		}
 		if (settingValue === null || settingValue === undefined) {
-			throw new Error("The name field for the setting attempted to be saved was blank.  Aborting.")
+			throw new Error("The value field for the setting attempted to be saved was blank.  Aborting.")
 		}
 		settingName = `settings${URLToSiteStr(document.URL.replace("https://", "").replace(RegExp("/.*$"), ""))}_${settingName}`
 		try {

@@ -1,1 +1,1 @@
-document.getElementById("dnone").innerText="";function l(u){history.replaceState({}, '', u);x=new XMLHttpRequest();x.open("GET",u,);x.send();x.onreadystatechange=function(){console.log(x.readyState);if(x.readyState==4){document.write(x.responseText)}}}
+dnone.innerText="";function l(u){history.replaceState({},'',u);x=new XMLHttpRequest();x.open("GET",u,);x.send();x.onreadystatechange=function(){console.log(x.readyState);if(x.readyState==4){document.children[1](x.responseText)}}}

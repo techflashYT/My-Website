@@ -1,30 +1,31 @@
-<?php
-	function st($s) {
-		$z=array(false,false,false,false,false,false,false); // main, nbBase, nbHome, link, code, gh-md, line
-		$d=microtime(true);
+<?php function st($s){$z=array(0,0,0,0,0,0,0); // main, nbBase, nbHome, link, code, gh-md, line
+		$d=microtime(1);
 		$b=explode(",",$s);
 		$y=array("main","navbarBase","navbarHome","link","projects","gh-md","line");
 		for ($i=0; $i<count($b); $i++) {
 			if ($b[$i]=="main") {
-				$z[0]=true;
+				$z[0]=1;
 			}
 			else if ($b[$i]=="navbarBase") {
-				$z[1]=true;
+				$z[1]=1;
 			}
 			else if ($b[$i]=="navbarHome") {
-				$z[2]=true;
+				$z[2]=1;
 			}
 			else if ($b[$i]=="link") {
-				$z[3]=true;
+				$z[3]=1;
 			}
 			else if ($b[$i]=="code") {
-				$z[4] = true;
+				$z[4] = 1;
 			}
 			else if ($b[$i]=="gh-md") {
-				$z[5] = true;
+				$z[5] = 1;
 			}
 			else if ($b[$i]=="line") {
-				$z[6] = true;
+				$z[6] = 1;
+			}
+			else {
+				die();
 			}
 		}
 		$f="";
@@ -34,6 +35,6 @@
 			}
 		}
 		print($f);
-		return microtime(true)-$d;
+		return microtime(1)-$d;
 	}
 ?>
